@@ -11,6 +11,7 @@ while True:
     if fav_thing in fav_dict.keys():
        alterado = input(f"Digite seu {fav_thing} favorito: ")
        fav_dict[fav_thing] = alterado
+       break
     else:
         print("Digite uma chave existente por favor!")
         continue
